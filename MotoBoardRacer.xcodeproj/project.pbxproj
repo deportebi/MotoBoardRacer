@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9387BB281A3F409200CBC810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387BB271A3F409200CBC810 /* AppDelegate.swift */; };
+		9387BB2A1A3F409200CBC810 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB291A3F409200CBC810 /* GameScene.sks */; };
+		9387BB2C1A3F409200CBC810 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387BB2B1A3F409200CBC810 /* GameScene.swift */; };
+		9387BB2E1A3F409200CBC810 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387BB2D1A3F409200CBC810 /* GameViewController.swift */; };
+		9387BB311A3F409200CBC810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB2F1A3F409200CBC810 /* Main.storyboard */; };
+		9387BB331A3F409200CBC810 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB321A3F409200CBC810 /* Images.xcassets */; };
+		9387BB361A3F409200CBC810 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB341A3F409200CBC810 /* LaunchScreen.xib */; };
+		9387BB421A3F409200CBC810 /* MotoBoardRacerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387BB411A3F409200CBC810 /* MotoBoardRacerTests.swift */; };
+		9387BB4F1A3F420900CBC810 /* Assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB4C1A3F420900CBC810 /* Assets.atlas */; };
+		9387BB501A3F420900CBC810 /* Track_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9387BB4E1A3F420900CBC810 /* Track_01.png */; };
+		9387BB541A3F4AE800CBC810 /* BikeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9387BB531A3F4AE800CBC810 /* BikeNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9387BB3C1A3F409200CBC810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9387BB1A1A3F409200CBC810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9387BB211A3F409200CBC810;
+			remoteInfo = MotoBoardRacer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9387BB221A3F409200CBC810 /* MotoBoardRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotoBoardRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9387BB261A3F409200CBC810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9387BB271A3F409200CBC810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9387BB291A3F409200CBC810 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9387BB2B1A3F409200CBC810 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9387BB2D1A3F409200CBC810 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9387BB301A3F409200CBC810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9387BB321A3F409200CBC810 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9387BB351A3F409200CBC810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9387BB3B1A3F409200CBC810 /* MotoBoardRacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotoBoardRacerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9387BB401A3F409200CBC810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9387BB411A3F409200CBC810 /* MotoBoardRacerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoBoardRacerTests.swift; sourceTree = "<group>"; };
+		9387BB4C1A3F420900CBC810 /* Assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Assets.atlas; sourceTree = "<group>"; };
+		9387BB4E1A3F420900CBC810 /* Track_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Track_01.png; sourceTree = "<group>"; };
+		9387BB531A3F4AE800CBC810 /* BikeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9387BB1F1A3F409200CBC810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9387BB381A3F409200CBC810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9387BB191A3F409200CBC810 = {
+			isa = PBXGroup;
+			children = (
+				9387BB241A3F409200CBC810 /* MotoBoardRacer */,
+				9387BB3E1A3F409200CBC810 /* MotoBoardRacerTests */,
+				9387BB231A3F409200CBC810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9387BB231A3F409200CBC810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB221A3F409200CBC810 /* MotoBoardRacer.app */,
+				9387BB3B1A3F409200CBC810 /* MotoBoardRacerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9387BB241A3F409200CBC810 /* MotoBoardRacer */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB521A3F4ADB00CBC810 /* Bike */,
+				9387BB4B1A3F420900CBC810 /* Assets */,
+				9387BB271A3F409200CBC810 /* AppDelegate.swift */,
+				9387BB291A3F409200CBC810 /* GameScene.sks */,
+				9387BB2B1A3F409200CBC810 /* GameScene.swift */,
+				9387BB2D1A3F409200CBC810 /* GameViewController.swift */,
+				9387BB2F1A3F409200CBC810 /* Main.storyboard */,
+				9387BB321A3F409200CBC810 /* Images.xcassets */,
+				9387BB341A3F409200CBC810 /* LaunchScreen.xib */,
+				9387BB251A3F409200CBC810 /* Supporting Files */,
+			);
+			path = MotoBoardRacer;
+			sourceTree = "<group>";
+		};
+		9387BB251A3F409200CBC810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB261A3F409200CBC810 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9387BB3E1A3F409200CBC810 /* MotoBoardRacerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB411A3F409200CBC810 /* MotoBoardRacerTests.swift */,
+				9387BB3F1A3F409200CBC810 /* Supporting Files */,
+			);
+			path = MotoBoardRacerTests;
+			sourceTree = "<group>";
+		};
+		9387BB3F1A3F409200CBC810 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB401A3F409200CBC810 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9387BB4B1A3F420900CBC810 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB4C1A3F420900CBC810 /* Assets.atlas */,
+				9387BB4D1A3F420900CBC810 /* Tracks */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9387BB4D1A3F420900CBC810 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB4E1A3F420900CBC810 /* Track_01.png */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
+		9387BB521A3F4ADB00CBC810 /* Bike */ = {
+			isa = PBXGroup;
+			children = (
+				9387BB531A3F4AE800CBC810 /* BikeNode.swift */,
+			);
+			path = Bike;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9387BB211A3F409200CBC810 /* MotoBoardRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9387BB451A3F409200CBC810 /* Build configuration list for PBXNativeTarget "MotoBoardRacer" */;
+			buildPhases = (
+				9387BB1E1A3F409200CBC810 /* Sources */,
+				9387BB1F1A3F409200CBC810 /* Frameworks */,
+				9387BB201A3F409200CBC810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotoBoardRacer;
+			productName = MotoBoardRacer;
+			productReference = 9387BB221A3F409200CBC810 /* MotoBoardRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9387BB3A1A3F409200CBC810 /* MotoBoardRacerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9387BB481A3F409200CBC810 /* Build configuration list for PBXNativeTarget "MotoBoardRacerTests" */;
+			buildPhases = (
+				9387BB371A3F409200CBC810 /* Sources */,
+				9387BB381A3F409200CBC810 /* Frameworks */,
+				9387BB391A3F409200CBC810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9387BB3D1A3F409200CBC810 /* PBXTargetDependency */,
+			);
+			name = MotoBoardRacerTests;
+			productName = MotoBoardRacerTests;
+			productReference = 9387BB3B1A3F409200CBC810 /* MotoBoardRacerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9387BB1A1A3F409200CBC810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = com.deportebi;
+				TargetAttributes = {
+					9387BB211A3F409200CBC810 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9387BB3A1A3F409200CBC810 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9387BB211A3F409200CBC810;
+					};
+				};
+			};
+			buildConfigurationList = 9387BB1D1A3F409200CBC810 /* Build configuration list for PBXProject "MotoBoardRacer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9387BB191A3F409200CBC810;
+			productRefGroup = 9387BB231A3F409200CBC810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9387BB211A3F409200CBC810 /* MotoBoardRacer */,
+				9387BB3A1A3F409200CBC810 /* MotoBoardRacerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9387BB201A3F409200CBC810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9387BB361A3F409200CBC810 /* LaunchScreen.xib in Resources */,
+				9387BB331A3F409200CBC810 /* Images.xcassets in Resources */,
+				9387BB4F1A3F420900CBC810 /* Assets.atlas in Resources */,
+				9387BB2A1A3F409200CBC810 /* GameScene.sks in Resources */,
+				9387BB501A3F420900CBC810 /* Track_01.png in Resources */,
+				9387BB311A3F409200CBC810 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9387BB391A3F409200CBC810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9387BB1E1A3F409200CBC810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9387BB2C1A3F409200CBC810 /* GameScene.swift in Sources */,
+				9387BB2E1A3F409200CBC810 /* GameViewController.swift in Sources */,
+				9387BB541A3F4AE800CBC810 /* BikeNode.swift in Sources */,
+				9387BB281A3F409200CBC810 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9387BB371A3F409200CBC810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9387BB421A3F409200CBC810 /* MotoBoardRacerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9387BB3D1A3F409200CBC810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9387BB211A3F409200CBC810 /* MotoBoardRacer */;
+			targetProxy = 9387BB3C1A3F409200CBC810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9387BB2F1A3F409200CBC810 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9387BB301A3F409200CBC810 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9387BB341A3F409200CBC810 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9387BB351A3F409200CBC810 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9387BB431A3F409200CBC810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9387BB441A3F409200CBC810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9387BB461A3F409200CBC810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotoBoardRacer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9387BB471A3F409200CBC810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MotoBoardRacer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9387BB491A3F409200CBC810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotoBoardRacerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoBoardRacer.app/MotoBoardRacer";
+			};
+			name = Debug;
+		};
+		9387BB4A1A3F409200CBC810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MotoBoardRacerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MotoBoardRacer.app/MotoBoardRacer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9387BB1D1A3F409200CBC810 /* Build configuration list for PBXProject "MotoBoardRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9387BB431A3F409200CBC810 /* Debug */,
+				9387BB441A3F409200CBC810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9387BB451A3F409200CBC810 /* Build configuration list for PBXNativeTarget "MotoBoardRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9387BB461A3F409200CBC810 /* Debug */,
+				9387BB471A3F409200CBC810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9387BB481A3F409200CBC810 /* Build configuration list for PBXNativeTarget "MotoBoardRacerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9387BB491A3F409200CBC810 /* Debug */,
+				9387BB4A1A3F409200CBC810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9387BB1A1A3F409200CBC810 /* Project object */;
+}
